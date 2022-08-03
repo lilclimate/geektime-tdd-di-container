@@ -1,0 +1,32 @@
+{
+  "name": "geektime-tdd-di-container",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:lilclimate/geektime-tdd-di-container.git",
+  "author": "lil climate <lilclimate@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "jest": "^28.1.3",
+    "jest-environment-jsdom": "^28.1.3",
+    "prettier": "^2.7.1"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^12.1.4",
+    "@commitlint/config-conventional": "^12.1.4",
+    "@types/jest": "^28.1.6",
+    "@typescript-eslint/eslint-plugin": "^4.28.0",
+    "@typescript-eslint/parser": "^4.28.0",
+    "conventional-changelog-cli": "^2.1.1",
+    "eslint": "^7.29.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-import": "^2.23.4",
+    "eslint-plugin-prettier": "^3.4.0",
+    "eslint-plugin-simple-import-sort": "^7.0.0",
+    "ts-jest": "^28.0.7",
+    "typescript": "4.3.4"
+  },
+  "scripts": {
+    "test": "jest"
+  }
+}
